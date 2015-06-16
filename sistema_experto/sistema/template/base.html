@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Programacion para base de datos</title>
+
+  
+</head><body style="color: rgb(0, 0, 0); background-color: rgb(204, 255, 255);" alink="#000099" link="#000099" vlink="#990099">
+<h1>
+<center>Programacion para base de datos</center>
+</h1>
+
+<ul style="text-align: center;">
+
+{% for declarativos in lista_decla %}
+   <br>
+  <ul>
+    <li><span style="color: rgb(204, 0, 0);">Tipo:</span>{{declarativos.tipo}} <span style="color: rgb(204, 0, 0);">Nombre: </span>{{declarativos.nombre}} 
+    </li>
+  </ul>
+{% endfor %}
+</ul>
+
+<br>
+
+<br>
+
+</body></html>

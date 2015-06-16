@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Funcionales</title></head><body style="color: rgb(0, 0, 0); background-color: rgb(204, 255, 255);" alink="#000099" link="#000099" vlink="#990099">
+<h1>
+<center>Funcionales</center>
+</h1>
+
+<ul style="text-align: center;">
+
+{% for declarativos in lista_decla %}
+  <li style="text-align: center;"><big style="color: rgb(204, 0, 0);">Tipo</big><span style="color: rgb(204, 0, 0);">:</span> {{declarativos.tipo}}&nbsp; <big><span style="color: rgb(204, 0, 0);">Nombre</span> </big>{{ declarativos.nombre}} </li>
+{% endfor %}
+</ul>
+
+<br>
+
+<br>
+
+</body></html>

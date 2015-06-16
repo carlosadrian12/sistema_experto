@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Programacion Orientada a Objetos</title>
+
+
+</head><body style="color: rgb(0, 0, 0); background-color: rgb(204, 255, 255);" alink="#000099" link="#000099" vlink="#990099">
+<h1>
+<center>Programacion Orientada a Objetos</center>
+</h1>
+
+<ul style="text-align: center;">
+
+{% for impertativos in lista_imper %}<br>
+<ul>
+<li>&nbsp;<span style="color: rgb(204, 0, 0);">Tipo:</span>{{impertativos.tipo}}
+<span style="color: rgb(204, 0, 0);">Nombre: </span>{{impertativos.nombre}}</li>
+</ul>
+&nbsp;{% endfor %}
+</ul>
+
+<br>
+
+<br>
+
+</body></html>
